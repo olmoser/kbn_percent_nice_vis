@@ -12,7 +12,7 @@
     "test": "gulp test",
     "test:coverage": "gulp coverage",
     "start": "gulp dev",
-    "postinstall": "bower install",
+    "postinstall": "bower --allow-root install",
     "precommit": "gulp lint",
     "build": "gulp build"
   },
